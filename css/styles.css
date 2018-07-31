@@ -1,5 +1,39 @@
 /* Global Styles */
-
+.text-white{
+  color:#ffffff;
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: 'PT Sans', sans-serif;
+}
+body {
+  font-family: 'Roboto Mono', monospace;
+}
+/* NAV BAR */
+.navbar-brand h1{
+  font-family: 'Supermercado One', cursive;
+  font-size: 35px;
+  margin: 0;
+}
+.navbar-brand{
+  padding: 10px;
+}
+/* JUMBOTRON */
+.home-section{
+  background-image: url("../img/hero.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+/* RESERVATION SECTION */
+.reservation-section{
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background: #eeeeee;
+}
 /* Small Screens */
 @media only screen and (min-width : 768px) {
 }
